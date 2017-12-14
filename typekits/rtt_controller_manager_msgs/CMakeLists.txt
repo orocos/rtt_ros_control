@@ -8,5 +8,5 @@ ros_generate_rtt_service_proxies(controller_manager_msgs)
 
 orocos_generate_package(
   DEPENDS controller_manager_msgs
-  DEPENDS_TARGETS rtt_roscomm rtt_std_msgs rtt_geometry_msgs rtt_trajectory_msgs rtt_actionlib_msgs
+  DEPENDS_TARGETS rtt_roscomm rtt_std_msgs
 )
